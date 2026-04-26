@@ -1,0 +1,4 @@
+Dataset Information:
+Medical Image dataset of Bladder Cancer having 4 classes ( Non-cancer, TURBT, Above T1, TA)
+Dataset is divided in Train, Val, and Test with a split ratio of 70:15:15.
+Images was processed and resized before training.
