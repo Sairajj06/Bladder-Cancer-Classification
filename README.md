@@ -42,3 +42,50 @@ The notebooks contain full training code and evaluation results.
 Training Approach
 The models were trained using transfer learning techniques.
 Key training steps included:
+- Images were preprocessed and mormalised before training
+- Data augumentation was applied to generate more training variations. But no changes in color and image contrast to maintain the medical conditions.
+- A pretrained ConvNext model was used and fined tuned on the bladder cancer dataset
+- The model was trained using Adam optimizer and categorical cross-entropy loss.
+- Trainng progress was continously monitored and also at last was visualised using accuracy loss graph, to ensure no Overfitting and Underfitting of model.
+
+Results:
+Both models were evaluated using classification metrics and visualization techniques.
+EfficientNetB4 Performance
+-Accuracy: ~90%
+ConvNeXt Performance
+-Accuracy: ~97–98%
+
+Technologies Used-
+-Python
+-TensorFlow / Keras
+-NumPy
+-OpenCV
+-Matplotlib
+-Seaborn
+-Scikit-learn
+
+Repository Sturucture-
+Bladder-Cancer-Classification
+│
+├── README.md
+├── dataset
+│   └── dataset_info.txt
+│
+├── notebooks
+│   ├── efficientnetb4-bladder-cancer-4-classes.ipynb
+│   └── convnext-bladder-cancer-4-classes.ipynb
+│
+├── models
+│   └── model_info.txt
+│
+├── results
+│   ├── confusion_matrix.png
+│   ├── accuracy_plot.png
+│   └── loss_plot.png
+│
+└── requirements.txt
+
+Author-
+Sairaj Jagtap
+B.Tech Computer Science ( Artificial Intiligence and Machine Learning)
+Sanjivani University
