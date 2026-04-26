@@ -1,0 +1,17 @@
+Developed deep learning models to classify bladded cancer medical images into 4 classes.
+Libraries used-
+- Tensorflow/Keras: building and training the deep learning model
+- NumPy- Numerical operations and data handling
+- OpenCV- image preprocessing and resizing
+- Matplotlib- visualization of traing accuray and loss graphs
+- SCIkit- learn- evaluation metrics and confusion matrix
+Training approach- 
+-Images were first resized and normalized
+-Data augmentations such as rotation and flipping was used. No images processing or color changing augmentation techniques was used.
+- A pretrained EfficientNetB4 model was used and fine tuned for bladder cancer  classification.
+- The model was trained on near about 65 epochs with batch size of 54 using Adam optimiser
+-During training, both traing and validation accuracy and loss was being monitored and at end it was visualised using graphs to ensure no Overfitting and Underfitting.
+Preformance- 
+Acheived approximately 90% validation accuracy
+
+
