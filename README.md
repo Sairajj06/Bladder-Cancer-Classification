@@ -71,7 +71,10 @@ Technologies Used-
 -Seaborn
 -Scikit-learn
 
-Author-
+Author:
+
 Sairaj Jagtap
+
 B.Tech Computer Science ( Artificial Intiligence and Machine Learning)
+
 Sanjivani University
