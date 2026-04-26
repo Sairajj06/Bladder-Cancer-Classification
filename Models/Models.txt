@@ -1,0 +1,22 @@
+ConvNext 
+Why we used ConvNext?
+- ConvNeXt is capable of learning rich spatial features, which helps detect subtle visual patterns in medical images.
+- It has shown strong performance in medical image classification and biomedical vision tasks
+- ConvNeXt models provide high accuracy and robust feature learning for complex image datasets
+- ConvNeXt has been used in multiple medical imaging studies and competitions for tasks such as tumor detection and radiology image classification
+- Research reference paper-
+  - Zhou, Y., et al.
+   “Exploring ConvNeXt for Medical Image Classification.”
+    IEEE Access, 2023
+
+EfficientNetB4
+Why we used EfficientNetB4?
+- EfficientNet models are known for high accuracy and efficiency in image classification tasks
+- They use compound scaling, which improves feature extraction without greatly increasing model complexity
+- EfficientNet performs very well in medical image analysis tasks, especially when datasets are limited
+- Using transfer learning from ImageNet helps the model learn medical features even with smaller datasets
+- EfficientNet can capture fine visual patterns, which is important for detecting cancer-related structures in medical images
+- Research reference paper-
+  -Mingxing Tan and Quoc V. Le,
+   “EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks”
+   Proceedings of ICML 2019
