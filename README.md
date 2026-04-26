@@ -64,27 +64,6 @@ Technologies Used-
 -Seaborn
 -Scikit-learn
 
-Repository Sturucture-
-Bladder-Cancer-Classification
-│
-├── README.md
-├── dataset
-│   └── dataset_info.txt
-│
-├── notebooks
-│   ├── efficientnetb4-bladder-cancer-4-classes.ipynb
-│   └── convnext-bladder-cancer-4-classes.ipynb
-│
-├── models
-│   └── model_info.txt
-│
-├── results
-│   ├── confusion_matrix.png
-│   ├── accuracy_plot.png
-│   └── loss_plot.png
-│
-└── requirements.txt
-
 Author-
 Sairaj Jagtap
 B.Tech Computer Science ( Artificial Intiligence and Machine Learning)
