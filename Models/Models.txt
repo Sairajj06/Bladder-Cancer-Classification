@@ -20,3 +20,6 @@ Why we used EfficientNetB4?
   -Mingxing Tan and Quoc V. Le,
    “EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks”
    Proceedings of ICML 2019
+
+Model files are not uploaded due to GitHub file size limitations.
+The notebooks contain full training code and evaluation results.
