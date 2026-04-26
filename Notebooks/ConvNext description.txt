@@ -1,0 +1,16 @@
+Deep learning model for classification of Bladder cancer 
+Model used- ConvNext
+Libraries used- 
+-Tensorflow/Keras- deep learning model training
+-NumPy- numerical operations.
+-OpenCV- image preprocessing and resizing
+-Matplotlib/Seaborm- visualization of training results
+- Scikit-learn- evaluation metrics
+Traning approach- 
+- Images were preprocessed and mormalised before training
+- Data augumentation was applied to generate more training variations. But no changes in color and image contrast to maintain the medical conditions.
+- A pretrained ConvNext model was used and fined tuned on the bladder cancer dataset
+- The model was trained using Adam optimizer and categorical cross-entropy loss.
+- Trainng progress was continously monitored and also at last was visualised using accuracy loss graph, to ensure no Overfitting and Underfitting of model.
+Performance-
+Acheived approximately 97%- 98% validation accuracy.
